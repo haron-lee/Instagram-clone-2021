@@ -32,6 +32,11 @@
   background-color: #fafafa;
 }
 
+#login-form input:focus {
+  border-color: skyblue;
+  outline: 0;
+}
+
 #login-form input::placeholder {
   color: rgba(0, 0, 0, 0.3);
 }
@@ -52,12 +57,20 @@
   width: 98%;
 }
 
+#login-form input[type="submit"]:hover {
+  background-color: var(--butterfly);
+}
+
 /* need solution */
 .login-form__forgot {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: flex-end;
+}
+
+.login-form__forgot a:hover {
+  color: var(--butterfly);
 }
 
 .login-form__forgot a {
@@ -69,6 +82,10 @@
   margin-bottom: 50px;
   color: skyblue;
   text-decoration: none;
+}
+
+.login-form__continue:hover {
+  color: var(--butterfly);
 }
 
 .login-form__or {
@@ -95,6 +112,10 @@
 .login-form__sign-up a {
   text-decoration: none;
   color: skyblue;
+}
+
+.login-form__sign-up a:hover {
+  color: var(--butterfly);
 }
 
 .login-footer {
