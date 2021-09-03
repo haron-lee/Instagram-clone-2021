@@ -1,0 +1,142 @@
+.home-story {
+  display: flex;
+  margin: 0 10px;
+  justify-content: space-between;
+}
+
+.home-story__pic {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+@keyframes justBeat {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.home-story__pic img:hover {
+  cursor: pointer;
+  will-change: transform;
+  animation: justBeat 1s linear infinite;
+}
+
+.home-story__gra1 {
+  padding-left: 10px;
+  padding-top: 6px;
+}
+
+.home-story__gra {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(to left, var(--first), var(--second));
+  padding-left: 0px;
+  padding-top: 4px;
+  border-radius: 40px;
+}
+
+.home-story img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  padding: 0;
+  border: 3px solid white;
+  box-sizing: content-box;
+}
+
+.home-story__pic:first-child span {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.home-story__pic span {
+  font-size: 13px;
+  margin-top: 3px;
+  text-align: center;
+  margin-left: 6px;
+  font-weight: 600;
+}
+
+.home-story__plusbtn {
+  position: absolute;
+  right: 6px;
+  top: 60px;
+  color: var(--first);
+}
+
+.home-post {
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+
+.home-post__user {
+  display: flex;
+  align-items: center;
+}
+
+.home-post__user-img {
+  width: auto;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.home-post__user-text {
+  padding-left: 5px;
+  font-weight: 600;
+}
+
+.home-img img {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.home-text {
+  padding: 10px;
+}
+
+.home-text__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-text__icon span {
+  padding-right: 10px;
+}
+
+.home-text__heart {
+  display: flex;
+  flex-direction: column;
+  margin: 12px 0px;
+}
+
+.home-text__heart div:last-child {
+  padding: 8px 0px;
+}
+
+.home-text__heart-text:nth-child(2) {
+  margin-top: 5px;
+}
+
+.home-text__heart-text:nth-child(2) span:first-child,
+.home-text__heart-text:first-child {
+  font-weight: 600;
+}
+
+.home-text__heart-text:last-child {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+}

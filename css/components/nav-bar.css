@@ -1,0 +1,47 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 97%;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav__btn {
+  color: black;
+}
+
+@keyframes upDown {
+  0% {
+    transform: none;
+    color: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: none;
+    color: none;
+  }
+}
+
+.nav i:hover,
+.nav img:hover {
+  color: #ff3450;
+  will-change: transform;
+  animation: upDown 1s linear infinite;
+  cursor: pointer;
+}

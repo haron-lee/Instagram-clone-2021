@@ -1,0 +1,46 @@
+.screen-header {
+  display: flex;
+  margin: 55px 20px 20px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen-header__text {
+  font-family: fantasy;
+  font-size: 45px;
+  font-style: italic;
+}
+
+.screen-header__text span {
+  color: var(--outcolor);
+}
+
+.screen-header__icons {
+  position: relative;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+  position: relative;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: none;
+    transform: none;
+  }
+  50% {
+    color: red;
+    transform: scale(1.3);
+  }
+  100% {
+    color: none;
+  }
+}
+
+.fa-heart:hover {
+  cursor: pointer;
+  color: tomato;
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
