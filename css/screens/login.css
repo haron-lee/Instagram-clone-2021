@@ -10,7 +10,7 @@
 }
 
 .login-header span {
-  color: #d04a68;
+  color: var(--outcolor);
 }
 
 .login-main {
