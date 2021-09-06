@@ -25,7 +25,7 @@ img {
   }
 }
 
-img:hover {
+.search-img_list img:hover {
   will-change: transform;
   animation: imgBeat 0.3s linear forwards;
   cursor: pointer;

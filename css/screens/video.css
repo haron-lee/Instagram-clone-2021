@@ -1,0 +1,35 @@
+.video-body {
+  width: 95%;
+  height: 95%;
+  justify-content: center;
+  align-items: center;
+}
+
+.outsta-video img {
+    width: 96vw;
+    height: 96vh;
+    z-index: -99;
+}
+
+.video-header {
+    position:relative;
+    display: block;
+}
+
+.video-header__text {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.video-header__icon {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}

@@ -13,6 +13,7 @@
 @import "screens/home.css";
 @import "screens/search-screen-header.css";
 @import "screens/search.css";
+@import "screens/video.css";
 
 body {
   font-family: "Open Sans", sans-serif;
