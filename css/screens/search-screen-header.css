@@ -1,0 +1,23 @@
+.screen-header__input {
+  width: 100%;
+  position: relative;
+  font-size: 14px;
+}
+
+.screen-header__input input {
+  width: 78%;
+  padding: 14px 38px;
+  border-style: none;
+  background-color: #EFEFEF;
+  border-radius: 15px;
+  font-size: 15px;
+  color:rgba(0, 0, 0, 0.4);
+}
+
+.screen-header__input i {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.4);
+  left: 14px;
+  bottom: 16.5px;
+}
+

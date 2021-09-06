@@ -1,0 +1,32 @@
+.search-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+}
+
+.gull {
+  width: 303px;
+  height: 303px;
+}
+
+@keyframes imgBeat {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: scale(1.15);
+    border-radius: 20%;
+  }
+}
+
+img:hover {
+  will-change: transform;
+  animation: imgBeat 0.3s linear forwards;
+  cursor: pointer;
+}

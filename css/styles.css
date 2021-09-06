@@ -11,6 +11,8 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/home.css";
+@import "screens/search-screen-header.css";
+@import "screens/search.css";
 
 body {
   font-family: "Open Sans", sans-serif;
