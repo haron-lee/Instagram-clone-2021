@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-img {
+.search-img_list:not(:nth-child(13)) img {
   width: 150px;
   height: 150px;
   margin: 2px;
@@ -20,7 +20,7 @@ img {
     transform: none;
   }
   100% {
-    transform: scale(1.15);
+    transform: scale(1.1);
     border-radius: 20%;
   }
 }
