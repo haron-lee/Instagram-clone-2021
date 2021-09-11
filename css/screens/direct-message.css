@@ -1,0 +1,66 @@
+.fa-chevron-left {
+  margin-right: 10px;
+}
+
+.dm-menu {
+  margin-top: 35px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.dm-menu span:not(.dm-menu span:first-child) {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.dm-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 30px;
+}
+
+.dm-list:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.dm-list i {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.dm-list__chats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chats__chat img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.chats__user {
+  margin-left: 10px;
+}
+
+.chats__user-title {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.chats__user-subtitle {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+}
+
+.mooming-talk {
+  color: black;
+}
