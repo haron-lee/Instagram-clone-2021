@@ -1,0 +1,31 @@
+.user-main__post-pic__id {
+  display: flex;
+  flex-wrap: wrap;
+}
+.user-main__post-pic__id img {
+  width: 160px;
+  height: 160px;
+}
+
+.user-main__post__id {
+  display: flex;
+}
+
+.post3 {
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+}
+
+.post4 {
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-top: 15px;
+}
+
+.user-main__post-pic__id img:hover,
+.user-main__post-pic img:hover {
+  cursor: pointer;
+  will-change: transform;
+  animation: imgBeat 0.3s linear forwards;
+}
