@@ -1,0 +1,163 @@
+.user-head {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 14px;
+  align-items: center;
+}
+
+.user-head span {
+  font-size: 25px;
+  font-weight: 600;
+  margin-right: 5px;
+  margin-left: 3px;
+}
+
+.user-head__icon i {
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.user-header {
+  margin: 30px 30px 15px 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-header__user img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.user-header__user span {
+  position: absolute;
+  left: 55px;
+  top: 60px;
+  color: var(--first);
+}
+
+.user-header__post,
+.user-header__follower,
+.user-header__following {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+}
+
+.user-main__username {
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.user-profile {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 20px;
+}
+
+.user-main__profile,
+.user-main__chevron {
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.user-main__profile {
+  padding: 15px 150px;
+  font-weight: 600;
+}
+
+.user-main__chevron i {
+  padding: 15px;
+}
+
+.user-main__explain {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.user-main__explain i {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.user-main__explain2 {
+  padding-left: 20px;
+}
+
+.user-main__circle {
+  margin: 15px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.serve-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#main-circle {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  width: 78px;
+  height: 78px;
+  border-radius: 39px;
+}
+
+.make-new {
+  padding-left: 15px;
+  font-size: 13px;
+}
+
+#circle-plus {
+  position: absolute;
+  left: 28px;
+  top: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#circle-plus:hover {
+  cursor: pointer;
+}
+
+.user-main__pic-icon {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 110px 0px 110px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.user-main__post {
+  display: flex;
+}
+
+.post1 {
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-top: 15px;
+}
+
+.post2 {
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+}
+
+.user-main__post-pic {
+  display: flex;
+  flex-wrap: wrap;
+}
+.user-main__post-pic img {
+  width: 160px;
+  height: 160px;
+}
