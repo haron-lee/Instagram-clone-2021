@@ -3,7 +3,10 @@
   top: 0px;
   display: flex;
   justify-content: space-between;
-  width: 93%;
+  width: 100%;
+  box-sizing: border-box;
   padding: 5px 0px;
+  padding-right: 30px;
   margin: 10px 10px;
 }
+

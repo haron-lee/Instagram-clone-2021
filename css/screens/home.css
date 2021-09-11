@@ -140,3 +140,9 @@
   flex-direction: column;
   color: gray;
 }
+
+.fa-paper-plane:hover {
+  color: #ff3450;
+  will-change: transform;
+  animation: justBeat 1s linear infinite;
+}
