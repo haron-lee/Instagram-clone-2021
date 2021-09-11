@@ -137,6 +137,11 @@
   font-size: 20px;
 }
 
+.user-main__pic-icon i:hover {
+  will-change: transform;
+  animation: upDown 1s linear infinite;
+}
+
 .user-main__post {
   display: flex;
 }

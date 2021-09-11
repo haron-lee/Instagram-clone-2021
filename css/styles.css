@@ -17,6 +17,8 @@
 @import "screens/shop.css";
 @import "screens/user.css";
 @import "screens/user-id.css";
+@import "screens/direct-message.css";
+@import "screens/dm-chat.css";
 
 body {
   font-family: "Open Sans", sans-serif;
